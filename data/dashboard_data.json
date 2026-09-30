@@ -1,0 +1,1555 @@
+{
+ "meta": {
+  "publisher": {
+   "en": "National Institute of Statistics",
+   "fr": "Institut National de la Statistique"
+  },
+  "country": {
+   "en": "",
+   "fr": ""
+  },
+  "docTitle": {
+   "en": "La structure par sexe reste caractérisée par une légère prédominance du sexe féminin, refl",
+   "fr": "La structure par sexe reste caractérisée par une légère prédominance du sexe féminin, refl"
+  },
+  "period": {
+   "en": "",
+   "fr": ""
+  },
+  "sourceUrl": "#",
+  "licence": {
+   "en": "Source data: as published by the institute. Dashboard code: MIT.",
+   "fr": "Données source : telles que publiées par l'institut. Code : MIT."
+  },
+  "contact": {
+   "en": "Built at the STG17 technical workshop, lab 02.",
+   "fr": "Réalisé lors de l'atelier technique STG17, labo 02."
+  },
+  "defaultLang": "fr",
+  "synthetic": false,
+  "generated": "2026-09-30"
+ },
+ "areas": [
+  {
+   "id": "0-14-ans",
+   "fr": "0-14 ans",
+   "en": "0-14 years"
+  },
+  {
+   "id": "15-35-ans",
+   "fr": "15-35 ans",
+   "en": "15-35 years"
+  },
+  {
+   "id": "65-ans-et",
+   "fr": "65 ans et +",
+   "en": "65 years and over"
+  },
+  {
+   "id": "femmes",
+   "fr": "Femmes",
+   "en": "Women"
+  },
+  {
+   "id": "hommes",
+   "fr": "Hommes",
+   "en": "Men"
+  },
+  {
+   "id": "infirmiers",
+   "fr": "Infirmiers",
+   "en": "Nurses"
+  },
+  {
+   "id": "moins-de-5-ans",
+   "fr": "Moins de 5 ans",
+   "en": "Under 5 years"
+  },
+  {
+   "id": "medecins-generalistes",
+   "fr": "Médecins Généralistes",
+   "en": "General practitioners"
+  },
+  {
+   "id": "medecins-specialistes",
+   "fr": "Médecins Spécialistes",
+   "en": "Specialist physicians"
+  },
+  {
+   "id": "rd",
+   "fr": "RD",
+   "en": "RD"
+  },
+  {
+   "id": "sages-femmes",
+   "fr": "Sages-Femmes",
+   "en": "Midwives"
+  },
+  {
+   "id": "taux-de-couverture-en-bcg",
+   "fr": "Taux de couverture en BCG",
+   "en": "BCG coverage rate"
+  },
+  {
+   "id": "taux-de-couverture-en-penta2",
+   "fr": "Taux de couverture en Penta2",
+   "en": "Penta2 coverage rate"
+  },
+  {
+   "id": "population-totale",
+   "fr": "population totale",
+   "en": "total population"
+  },
+  {
+   "id": "taux-d-accroissement-annuel-moyen",
+   "fr": "taux d'accroissement annuel moyen",
+   "en": "average annual growth rate"
+  }
+ ],
+ "kpis": [
+  {
+   "labels": {
+    "en": "Total population 2024",
+    "fr": "Population totale 2024"
+   },
+   "value": 12332788,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "delta": null,
+   "deltaLabel": {
+    "en": "vs None",
+    "fr": "vs None"
+   },
+   "good": "down",
+   "highlight": false
+  },
+  {
+   "labels": {
+    "en": "65 years and over 2024",
+    "fr": "65 ans et + 2024"
+   },
+   "value": 3.5,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "delta": null,
+   "deltaLabel": {
+    "en": "vs None",
+    "fr": "vs None"
+   },
+   "good": "down",
+   "highlight": false
+  },
+  {
+   "labels": {
+    "en": "Specialist doctors 2024",
+    "fr": "Médecins spécialistes 2024"
+   },
+   "value": 153,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "delta": null,
+   "deltaLabel": {
+    "en": "vs None",
+    "fr": "vs None"
+   },
+   "good": "down",
+   "highlight": false
+  },
+  {
+   "labels": {
+    "en": "BCG coverage 2024",
+    "fr": "Taux de couverture BCG 2024"
+   },
+   "value": 71.5,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "delta": null,
+   "deltaLabel": {
+    "en": "vs None",
+    "fr": "vs None"
+   },
+   "good": "down",
+   "highlight": false
+  }
+ ],
+ "series": {
+  "evolution_population": {
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "periods": [
+    "1979",
+    "1990",
+    "2008",
+    "2024"
+   ],
+   "values": {
+    "femmes": [
+     2082275,
+     2718667,
+     4088668,
+     6431719
+    ],
+    "hommes": [
+     1946145,
+     2574126,
+     3964906,
+     5901069
+    ],
+    "population-totale": [
+     4028420,
+     5292793,
+     8053574,
+     12332788
+    ],
+    "taux-d-accroissement-annuel-moyen": [
+     null,
+     2.5,
+     2.4,
+     2.7
+    ]
+   }
+  },
+  "repartition_population_age": {
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "periods": [
+    "2008",
+    "2016",
+    "2017",
+    "2019",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "values": {
+    "0-14-ans": [
+     44.6,
+     43.2,
+     null,
+     null,
+     40.0,
+     39.2,
+     null
+    ],
+    "15-35-ans": [
+     35.2,
+     35.1,
+     35.1,
+     35.3,
+     35.8,
+     31.7,
+     null
+    ],
+    "65-ans-et": [
+     2.8,
+     null,
+     null,
+     null,
+     null,
+     null,
+     3.5
+    ],
+    "moins-de-5-ans": [
+     17.7,
+     null,
+     15.4,
+     null,
+     null,
+     13.1,
+     16.7
+    ],
+    "rd": [
+     89.9,
+     null,
+     83.5,
+     null,
+     75.5,
+     null,
+     93.8
+    ]
+   }
+  },
+  "personnel_sante_par_annee": {
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "periods": [
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "values": {
+    "infirmiers": [
+     8160,
+     7714,
+     10158,
+     10873,
+     10091
+    ],
+    "medecins-generalistes": [
+     623,
+     717,
+     1058,
+     935,
+     1016
+    ],
+    "medecins-specialistes": [
+     71,
+     96,
+     146,
+     125,
+     153
+    ],
+    "sages-femmes": [
+     241,
+     143,
+     494,
+     498,
+     476
+    ]
+   }
+  },
+  "indicateurs_preventifs": {
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "periods": [
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+   ],
+   "values": {
+    "taux-de-couverture-en-bcg": [
+     82.3,
+     72.4,
+     70.8,
+     70.4,
+     71.5
+    ],
+    "taux-de-couverture-en-penta2": [
+     101.9,
+     100.5,
+     89.9,
+     87.8,
+     87.9
+    ]
+   }
+  }
+ },
+ "views": [
+  {
+   "id": "evolution_population",
+   "chart": "line",
+   "tab": {
+    "en": "Population evolution",
+    "fr": "Évolution de la population"
+   },
+   "title": {
+    "en": "Evolution of the population",
+    "fr": "Évolution de la population"
+   },
+   "sub": {
+    "en": "Population by sex and total, plus average annual growth rate.",
+    "fr": "Population par sexe et totale, plus taux d'accroissement annuel moyen."
+   },
+   "lede": {
+    "en": "Shows trends from 1979 to 2024.",
+    "fr": "Présente les tendances de 1979 à 2024."
+   },
+   "src": {
+    "en": "",
+    "fr": ""
+   }
+  },
+  {
+   "id": "repartition_population_age",
+   "chart": "line",
+   "tab": {
+    "en": "Age distribution",
+    "fr": "Répartition par âge"
+   },
+   "title": {
+    "en": "Age‑group distribution of the population (%)",
+    "fr": "Répartition de la population par groupe d’âge (%)"
+   },
+   "sub": {
+    "en": "Percentage of population in each age group over time.",
+    "fr": "Pourcentage de la population dans chaque groupe d’âge au fil du temps."
+   },
+   "lede": {
+    "en": "Tracks changes in age structure from 2008 to 2024.",
+    "fr": "Suit les évolutions de la structure d’âge de 2008 à 2024."
+   },
+   "src": {
+    "en": "",
+    "fr": ""
+   }
+  },
+  {
+   "id": "personnel_sante_par_annee",
+   "chart": "line",
+   "tab": {
+    "en": "Health personnel",
+    "fr": "Personnel de santé"
+   },
+   "title": {
+    "en": "Number of health personnel by year",
+    "fr": "Nombre de personnel de santé par année"
+   },
+   "sub": {
+    "en": "Counts of nurses, general practitioners, specialist doctors and midwives.",
+    "fr": "Effectifs d’infirmiers, médecins généralistes, médecins spécialistes et sages‑femmes."
+   },
+   "lede": {
+    "en": "Displays yearly staffing levels from 2020 to 2024.",
+    "fr": "Affiche les niveaux de personnel chaque année de 2020 à 2024."
+   },
+   "src": {
+    "en": "",
+    "fr": ""
+   }
+  },
+  {
+   "id": "indicateurs_preventifs",
+   "chart": "line",
+   "tab": {
+    "en": "Preventive indicators",
+    "fr": "Indicateurs préventifs"
+   },
+   "title": {
+    "en": "Preventive health coverage rates (%)",
+    "fr": "Taux de couverture des indicateurs préventifs (%)"
+   },
+   "sub": {
+    "en": "BCG and Penta2 vaccination coverage over time.",
+    "fr": "Couverture vaccinale BCG et Penta2 au fil du temps."
+   },
+   "lede": {
+    "en": "Illustrates vaccination coverage from 2020 to 2024.",
+    "fr": "Illustre la couverture vaccinale de 2020 à 2024."
+   },
+   "src": {
+    "en": "",
+    "fr": ""
+   }
+  }
+ ],
+ "facts": [
+  {
+   "indicator": "evolution_population",
+   "area": "population-totale",
+   "period": "1979",
+   "value": 4028420,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 1,
+   "snippet": "1979 4 028 420 1 946 145 2 082 275",
+   "status": "warn",
+   "note": {
+    "en": "unité «  » non autorisée pour evolution_population; 4028420 est hors de la plage plausible pour evolution_population",
+    "fr": "unité «  » non autorisée pour evolution_population; 4028420 est hors de la plage plausible pour evolution_population"
+   }
+  },
+  {
+   "indicator": "evolution_population",
+   "area": "hommes",
+   "period": "1979",
+   "value": 1946145,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 1,
+   "snippet": "1979 4 028 420 1 946 145 2 082 275",
+   "status": "warn",
+   "note": {
+    "en": "unité «  » non autorisée pour evolution_population; 1946145 est hors de la plage plausible pour evolution_population",
+    "fr": "unité «  » non autorisée pour evolution_population; 1946145 est hors de la plage plausible pour evolution_population"
+   }
+  },
+  {
+   "indicator": "evolution_population",
+   "area": "femmes",
+   "period": "1979",
+   "value": 2082275,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 1,
+   "snippet": "1979 4 028 420 1 946 145 2 082 275",
+   "status": "warn",
+   "note": {
+    "en": "unité «  » non autorisée pour evolution_population; 2082275 est hors de la plage plausible pour evolution_population",
+    "fr": "unité «  » non autorisée pour evolution_population; 2082275 est hors de la plage plausible pour evolution_population"
+   }
+  },
+  {
+   "indicator": "evolution_population",
+   "area": "population-totale",
+   "period": "1990",
+   "value": 5292793,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 1,
+   "snippet": "1990 5 292 793 2 574 126 2 718 667 2,5",
+   "status": "warn",
+   "note": {
+    "en": "unité «  » non autorisée pour evolution_population; 5292793 est hors de la plage plausible pour evolution_population",
+    "fr": "unité «  » non autorisée pour evolution_population; 5292793 est hors de la plage plausible pour evolution_population"
+   }
+  },
+  {
+   "indicator": "evolution_population",
+   "area": "hommes",
+   "period": "1990",
+   "value": 2574126,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 1,
+   "snippet": "1990 5 292 793 2 574 126 2 718 667 2,5",
+   "status": "warn",
+   "note": {
+    "en": "unité «  » non autorisée pour evolution_population; 2574126 est hors de la plage plausible pour evolution_population",
+    "fr": "unité «  » non autorisée pour evolution_population; 2574126 est hors de la plage plausible pour evolution_population"
+   }
+  },
+  {
+   "indicator": "evolution_population",
+   "area": "femmes",
+   "period": "1990",
+   "value": 2718667,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 1,
+   "snippet": "1990 5 292 793 2 574 126 2 718 667 2,5",
+   "status": "warn",
+   "note": {
+    "en": "unité «  » non autorisée pour evolution_population; 2718667 est hors de la plage plausible pour evolution_population",
+    "fr": "unité «  » non autorisée pour evolution_population; 2718667 est hors de la plage plausible pour evolution_population"
+   }
+  },
+  {
+   "indicator": "evolution_population",
+   "area": "taux-d-accroissement-annuel-moyen",
+   "period": "1990",
+   "value": 2.5,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "1990 5 292 793 2 574 126 2 718 667 2,5",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "evolution_population",
+   "area": "population-totale",
+   "period": "2008",
+   "value": 8053574,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 1,
+   "snippet": "2008 8 053 574 3 964 906 4 088 668 2,4",
+   "status": "warn",
+   "note": {
+    "en": "unité «  » non autorisée pour evolution_population; 8053574 est hors de la plage plausible pour evolution_population",
+    "fr": "unité «  » non autorisée pour evolution_population; 8053574 est hors de la plage plausible pour evolution_population"
+   }
+  },
+  {
+   "indicator": "evolution_population",
+   "area": "hommes",
+   "period": "2008",
+   "value": 3964906,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 1,
+   "snippet": "2008 8 053 574 3 964 906 4 088 668 2,4",
+   "status": "warn",
+   "note": {
+    "en": "unité «  » non autorisée pour evolution_population; 3964906 est hors de la plage plausible pour evolution_population",
+    "fr": "unité «  » non autorisée pour evolution_population; 3964906 est hors de la plage plausible pour evolution_population"
+   }
+  },
+  {
+   "indicator": "evolution_population",
+   "area": "femmes",
+   "period": "2008",
+   "value": 4088668,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 1,
+   "snippet": "2008 8 053 574 3 964 906 4 088 668 2,4",
+   "status": "warn",
+   "note": {
+    "en": "unité «  » non autorisée pour evolution_population; 4088668 est hors de la plage plausible pour evolution_population",
+    "fr": "unité «  » non autorisée pour evolution_population; 4088668 est hors de la plage plausible pour evolution_population"
+   }
+  },
+  {
+   "indicator": "evolution_population",
+   "area": "taux-d-accroissement-annuel-moyen",
+   "period": "2008",
+   "value": 2.4,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "2008 8 053 574 3 964 906 4 088 668 2,4",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "evolution_population",
+   "area": "population-totale",
+   "period": "2024",
+   "value": 12332788,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 1,
+   "snippet": "2024 12 332 788 5 901 069 6 431 719 2,7",
+   "status": "warn",
+   "note": {
+    "en": "unité «  » non autorisée pour evolution_population; 12332788 est hors de la plage plausible pour evolution_population",
+    "fr": "unité «  » non autorisée pour evolution_population; 12332788 est hors de la plage plausible pour evolution_population"
+   }
+  },
+  {
+   "indicator": "evolution_population",
+   "area": "hommes",
+   "period": "2024",
+   "value": 5901069,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 1,
+   "snippet": "2024 12 332 788 5 901 069 6 431 719 2,7",
+   "status": "warn",
+   "note": {
+    "en": "unité «  » non autorisée pour evolution_population; 5901069 est hors de la plage plausible pour evolution_population",
+    "fr": "unité «  » non autorisée pour evolution_population; 5901069 est hors de la plage plausible pour evolution_population"
+   }
+  },
+  {
+   "indicator": "evolution_population",
+   "area": "femmes",
+   "period": "2024",
+   "value": 6431719,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 1,
+   "snippet": "2024 12 332 788 5 901 069 6 431 719 2,7",
+   "status": "warn",
+   "note": {
+    "en": "unité «  » non autorisée pour evolution_population; 6431719 est hors de la plage plausible pour evolution_population",
+    "fr": "unité «  » non autorisée pour evolution_population; 6431719 est hors de la plage plausible pour evolution_population"
+   }
+  },
+  {
+   "indicator": "evolution_population",
+   "area": "taux-d-accroissement-annuel-moyen",
+   "period": "2024",
+   "value": 2.7,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "2024 12 332 788 5 901 069 6 431 719 2,7",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "repartition_population_age",
+   "area": "moins-de-5-ans",
+   "period": "2008",
+   "value": 17.7,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "Moins de 5 ans 17,7 [159 [15,4 [149 [145 [141 [133 [13,1 |16,7",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "repartition_population_age",
+   "area": "moins-de-5-ans",
+   "period": "2017",
+   "value": 15.4,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "Moins de 5 ans 17,7 [159 [15,4 [149 [145 [141 [133 [13,1 |16,7",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "repartition_population_age",
+   "area": "moins-de-5-ans",
+   "period": "2023",
+   "value": 13.1,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "Moins de 5 ans 17,7 [159 [15,4 [149 [145 [141 [133 [13,1 |16,7",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "repartition_population_age",
+   "area": "moins-de-5-ans",
+   "period": "2024",
+   "value": 16.7,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "Moins de 5 ans 17,7 [159 [15,4 [149 [145 [141 [133 [13,1 |16,7",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "repartition_population_age",
+   "area": "0-14-ans",
+   "period": "2008",
+   "value": 44.6,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "0-14 ans 44,6 |43,2 [429 |425 [42 [415 |40 39,2 |446",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "repartition_population_age",
+   "area": "0-14-ans",
+   "period": "2016",
+   "value": 43.2,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "0-14 ans 44,6 |43,2 [429 |425 [42 [415 |40 39,2 |446",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "repartition_population_age",
+   "area": "0-14-ans",
+   "period": "2022",
+   "value": 40.0,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "0-14 ans 44,6 |43,2 [429 |425 [42 [415 |40 39,2 |446",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "repartition_population_age",
+   "area": "0-14-ans",
+   "period": "2023",
+   "value": 39.2,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "0-14 ans 44,6 |43,2 [429 |425 [42 [415 |40 39,2 |446",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "repartition_population_age",
+   "area": "15-35-ans",
+   "period": "2008",
+   "value": 35.2,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "15-35 ans 35,2 [35,1 [35,1 [351 [35,3 [356 [35,8 |31,7",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "repartition_population_age",
+   "area": "15-35-ans",
+   "period": "2016",
+   "value": 35.1,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "15-35 ans 35,2 [35,1 [35,1 [351 [35,3 [356 [35,8 |31,7",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "repartition_population_age",
+   "area": "15-35-ans",
+   "period": "2017",
+   "value": 35.1,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "15-35 ans 35,2 [35,1 [35,1 [351 [35,3 [356 [35,8 |31,7",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "repartition_population_age",
+   "area": "15-35-ans",
+   "period": "2019",
+   "value": 35.3,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "15-35 ans 35,2 [35,1 [35,1 [351 [35,3 [356 [35,8 |31,7",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "repartition_population_age",
+   "area": "15-35-ans",
+   "period": "2022",
+   "value": 35.8,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "15-35 ans 35,2 [35,1 [35,1 [351 [35,3 [356 [35,8 |31,7",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "repartition_population_age",
+   "area": "15-35-ans",
+   "period": "2023",
+   "value": 31.7,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "15-35 ans 35,2 [35,1 [35,1 [351 [35,3 [356 [35,8 |31,7",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "repartition_population_age",
+   "area": "65-ans-et",
+   "period": "2008",
+   "value": 2.8,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "65 ans et + 2,8 [26 [26 [27 [28 [29 131 [32 |3,5",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "repartition_population_age",
+   "area": "65-ans-et",
+   "period": "2024",
+   "value": 3.5,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "65 ans et + 2,8 [26 [26 [27 [28 [29 131 [32 |3,5",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "repartition_population_age",
+   "area": "rd",
+   "period": "2008",
+   "value": 89.9,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "RD 89,9 [843 [83,5 [825 [812 [798 [75,5 [735 [93,8",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "repartition_population_age",
+   "area": "rd",
+   "period": "2017",
+   "value": 83.5,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "RD 89,9 [843 [83,5 [825 [812 [798 [75,5 [735 [93,8",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "repartition_population_age",
+   "area": "rd",
+   "period": "2022",
+   "value": 75.5,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "RD 89,9 [843 [83,5 [825 [812 [798 [75,5 [735 [93,8",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "repartition_population_age",
+   "area": "rd",
+   "period": "2024",
+   "value": 93.8,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 1,
+   "snippet": "RD 89,9 [843 [83,5 [825 [812 [798 [75,5 [735 [93,8",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "personnel_sante_par_annee",
+   "area": "medecins-specialistes",
+   "period": "2020",
+   "value": 71,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 7,
+   "snippet": "Médecins Spécialistes 71 96 146 125 153",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "personnel_sante_par_annee",
+   "area": "medecins-specialistes",
+   "period": "2021",
+   "value": 96,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 7,
+   "snippet": "Médecins Spécialistes 71 96 146 125 153",
+   "status": "warn",
+   "note": {
+    "en": "la lecture par règles de cette cellule donne 96146125153.0, le modèle a dit 96",
+    "fr": "la lecture par règles de cette cellule donne 96146125153.0, le modèle a dit 96"
+   }
+  },
+  {
+   "indicator": "personnel_sante_par_annee",
+   "area": "medecins-specialistes",
+   "period": "2022",
+   "value": 146,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 7,
+   "snippet": "Médecins Spécialistes 71 96 146 125 153",
+   "status": "warn",
+   "note": {
+    "en": "146 n'est nulle part sur la ligne « Médecins Spécialistes » ; cette ligne contient [71.0, 96146125153.0]",
+    "fr": "146 n'est nulle part sur la ligne « Médecins Spécialistes » ; cette ligne contient [71.0, 96146125153.0]"
+   }
+  },
+  {
+   "indicator": "personnel_sante_par_annee",
+   "area": "medecins-specialistes",
+   "period": "2023",
+   "value": 125,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 7,
+   "snippet": "Médecins Spécialistes 71 96 146 125 153",
+   "status": "warn",
+   "note": {
+    "en": "125 n'est nulle part sur la ligne « Médecins Spécialistes » ; cette ligne contient [71.0, 96146125153.0]",
+    "fr": "125 n'est nulle part sur la ligne « Médecins Spécialistes » ; cette ligne contient [71.0, 96146125153.0]"
+   }
+  },
+  {
+   "indicator": "personnel_sante_par_annee",
+   "area": "medecins-specialistes",
+   "period": "2024",
+   "value": 153,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 7,
+   "snippet": "Médecins Spécialistes 71 96 146 125 153",
+   "status": "warn",
+   "note": {
+    "en": "153 n'est nulle part sur la ligne « Médecins Spécialistes » ; cette ligne contient [71.0, 96146125153.0]",
+    "fr": "153 n'est nulle part sur la ligne « Médecins Spécialistes » ; cette ligne contient [71.0, 96146125153.0]"
+   }
+  },
+  {
+   "indicator": "personnel_sante_par_annee",
+   "area": "medecins-generalistes",
+   "period": "2020",
+   "value": 623,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 7,
+   "snippet": "Médecins Généralistes 623 717 1 058 935 1 016",
+   "status": "warn",
+   "note": {
+    "en": "la lecture par règles de cette cellule donne 623717.0, le modèle a dit 623",
+    "fr": "la lecture par règles de cette cellule donne 623717.0, le modèle a dit 623"
+   }
+  },
+  {
+   "indicator": "personnel_sante_par_annee",
+   "area": "medecins-generalistes",
+   "period": "2021",
+   "value": 717,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 7,
+   "snippet": "Médecins Généralistes 623 717 1 058 935 1 016",
+   "status": "warn",
+   "note": {
+    "en": "la lecture par règles de cette cellule donne 1058935.0, le modèle a dit 717",
+    "fr": "la lecture par règles de cette cellule donne 1058935.0, le modèle a dit 717"
+   }
+  },
+  {
+   "indicator": "personnel_sante_par_annee",
+   "area": "medecins-generalistes",
+   "period": "2022",
+   "value": 1058,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 7,
+   "snippet": "Médecins Généralistes 623 717 1 058 935 1 016",
+   "status": "warn",
+   "note": {
+    "en": "la lecture par règles de cette cellule donne 1016.0, le modèle a dit 1058",
+    "fr": "la lecture par règles de cette cellule donne 1016.0, le modèle a dit 1058"
+   }
+  },
+  {
+   "indicator": "personnel_sante_par_annee",
+   "area": "medecins-generalistes",
+   "period": "2023",
+   "value": 935,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 7,
+   "snippet": "Médecins Généralistes 623 717 1 058 935 1 016",
+   "status": "warn",
+   "note": {
+    "en": "935 n'est nulle part sur la ligne « Médecins Généralistes » ; cette ligne contient [623717.0, 1058935.0, 1016.0]",
+    "fr": "935 n'est nulle part sur la ligne « Médecins Généralistes » ; cette ligne contient [623717.0, 1058935.0, 1016.0]"
+   }
+  },
+  {
+   "indicator": "personnel_sante_par_annee",
+   "area": "medecins-generalistes",
+   "period": "2024",
+   "value": 1016,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 7,
+   "snippet": "Médecins Généralistes 623 717 1 058 935 1 016",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "personnel_sante_par_annee",
+   "area": "infirmiers",
+   "period": "2020",
+   "value": 8160,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 7,
+   "snippet": "Infirmiers 8 160 7 714 10 158 10 873 10 091",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "personnel_sante_par_annee",
+   "area": "infirmiers",
+   "period": "2021",
+   "value": 7714,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 7,
+   "snippet": "Infirmiers 8 160 7 714 10 158 10 873 10 091",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "personnel_sante_par_annee",
+   "area": "infirmiers",
+   "period": "2022",
+   "value": 10158,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 7,
+   "snippet": "Infirmiers 8 160 7 714 10 158 10 873 10 091",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "personnel_sante_par_annee",
+   "area": "infirmiers",
+   "period": "2023",
+   "value": 10873,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 7,
+   "snippet": "Infirmiers 8 160 7 714 10 158 10 873 10 091",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "personnel_sante_par_annee",
+   "area": "infirmiers",
+   "period": "2024",
+   "value": 10091,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 7,
+   "snippet": "Infirmiers 8 160 7 714 10 158 10 873 10 091",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "personnel_sante_par_annee",
+   "area": "sages-femmes",
+   "period": "2020",
+   "value": 241,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 7,
+   "snippet": "Sages-Femmes 241 143 494 498 476",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "personnel_sante_par_annee",
+   "area": "sages-femmes",
+   "period": "2021",
+   "value": 143,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 7,
+   "snippet": "Sages-Femmes 241 143 494 498 476",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "personnel_sante_par_annee",
+   "area": "sages-femmes",
+   "period": "2022",
+   "value": 494,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 7,
+   "snippet": "Sages-Femmes 241 143 494 498 476",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "personnel_sante_par_annee",
+   "area": "sages-femmes",
+   "period": "2023",
+   "value": 498,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 7,
+   "snippet": "Sages-Femmes 241 143 494 498 476",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "personnel_sante_par_annee",
+   "area": "sages-femmes",
+   "period": "2024",
+   "value": 476,
+   "unit": {
+    "en": "",
+    "fr": ""
+   },
+   "page": 7,
+   "snippet": "Sages-Femmes 241 143 494 498 476",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "indicateurs_preventifs",
+   "area": "taux-de-couverture-en-bcg",
+   "period": "2020",
+   "value": 82.3,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 8,
+   "snippet": "Taux de couverture en BCG 82,3 72,4 70,8 70,4 71,5",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "indicateurs_preventifs",
+   "area": "taux-de-couverture-en-bcg",
+   "period": "2021",
+   "value": 72.4,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 8,
+   "snippet": "Taux de couverture en BCG 82,3 72,4 70,8 70,4 71,5",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "indicateurs_preventifs",
+   "area": "taux-de-couverture-en-bcg",
+   "period": "2022",
+   "value": 70.8,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 8,
+   "snippet": "Taux de couverture en BCG 82,3 72,4 70,8 70,4 71,5",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "indicateurs_preventifs",
+   "area": "taux-de-couverture-en-bcg",
+   "period": "2023",
+   "value": 70.4,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 8,
+   "snippet": "Taux de couverture en BCG 82,3 72,4 70,8 70,4 71,5",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "indicateurs_preventifs",
+   "area": "taux-de-couverture-en-bcg",
+   "period": "2024",
+   "value": 71.5,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 8,
+   "snippet": "Taux de couverture en BCG 82,3 72,4 70,8 70,4 71,5",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "indicateurs_preventifs",
+   "area": "taux-de-couverture-en-penta2",
+   "period": "2020",
+   "value": 101.9,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 8,
+   "snippet": "Taux de couverture en Penta2 101,9 100,5 | 89,9 87,8 87,9",
+   "status": "warn",
+   "note": {
+    "en": "101.9 est hors de la plage plausible pour indicateurs_preventifs",
+    "fr": "101.9 est hors de la plage plausible pour indicateurs_preventifs"
+   }
+  },
+  {
+   "indicator": "indicateurs_preventifs",
+   "area": "taux-de-couverture-en-penta2",
+   "period": "2021",
+   "value": 100.5,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 8,
+   "snippet": "Taux de couverture en Penta2 101,9 100,5 | 89,9 87,8 87,9",
+   "status": "warn",
+   "note": {
+    "en": "100.5 est hors de la plage plausible pour indicateurs_preventifs",
+    "fr": "100.5 est hors de la plage plausible pour indicateurs_preventifs"
+   }
+  },
+  {
+   "indicator": "indicateurs_preventifs",
+   "area": "taux-de-couverture-en-penta2",
+   "period": "2022",
+   "value": 89.9,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 8,
+   "snippet": "Taux de couverture en Penta2 101,9 100,5 | 89,9 87,8 87,9",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "indicateurs_preventifs",
+   "area": "taux-de-couverture-en-penta2",
+   "period": "2023",
+   "value": 87.8,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 8,
+   "snippet": "Taux de couverture en Penta2 101,9 100,5 | 89,9 87,8 87,9",
+   "status": "ok",
+   "note": null
+  },
+  {
+   "indicator": "indicateurs_preventifs",
+   "area": "taux-de-couverture-en-penta2",
+   "period": "2024",
+   "value": 87.9,
+   "unit": {
+    "en": "%",
+    "fr": "%"
+   },
+   "page": 8,
+   "snippet": "Taux de couverture en Penta2 101,9 100,5 | 89,9 87,8 87,9",
+   "status": "ok",
+   "note": null
+  }
+ ],
+ "indicators": {
+  "evolution_population": {
+   "fr": "Evolution de la population",
+   "en": "Population evolution"
+  },
+  "repartition_population_age": {
+   "fr": "Répartition (%) de la population selon les groupes d'âge",
+   "en": "Population distribution (%) by age group"
+  },
+  "personnel_sante_par_annee": {
+   "fr": "Nombre de personnel de santé par année",
+   "en": "Number of health personnel per year"
+  },
+  "indicateurs_preventifs": {
+   "fr": "Indicateurs en %",
+   "en": "Indicators (%)"
+  }
+ },
+ "i18n": {
+  "en": {
+   "sourceDoc": "Source publication",
+   "tabOverview": "Overview",
+   "tabData": "Data & sources",
+   "filterLabel": "Areas",
+   "reset": "Reset",
+   "searchPh": "Search an indicator, an area, a year…",
+   "btnCsv": "Download CSV",
+   "btnJson": "Download JSON",
+   "thIndicator": "Indicator",
+   "thArea": "Area",
+   "thPeriod": "Period",
+   "thValue": "Value",
+   "thUnit": "Unit",
+   "thPage": "Page",
+   "thStatus": "Check",
+   "noRows": "No figure matches this search.",
+   "statusOk": "Verified",
+   "statusWarn": "To review",
+   "provLabel": "Read from the source document, page",
+   "calloutTitle": "Read this before reusing the figures",
+   "calloutBody": "These figures were extracted from a PDF by a language model and then checked automatically against the source text. Rows marked “To review” failed at least one check and have not been confirmed by a statistician. Always cite the original publication, not this dashboard.",
+   "dataTitle": "Data & sources",
+   "dataLede": "Every figure on this dashboard, with the page it came from and the line of text it was read from. Search, sort, open a row to see the source, export.",
+   "limTitle": "Limitations",
+   "methTitle": "How this dashboard was built",
+   "methBody": "Text was extracted from the PDF page by page. A rules-based reader and a language model each transcribed the tables independently, and every cell was checked for page provenance, quoted evidence, unit and range, reconciliation with published totals, and agreement between the two readings. The notebook, the prompts and the verification report are in the repository.",
+   "fSource": "Source",
+   "fLicence": "Licence",
+   "fBuilt": "Built with",
+   "fContact": "Contact",
+   "fBuiltBody": "Python, an LLM extraction pipeline, Chart.js. No tracking, no cookies, no server — a single HTML file.",
+   "stamp": "Dashboard generated on {date}. Figures are the responsibility of the source institution; the presentation is the responsibility of the team that built this page.",
+   "syntheticWarn": "Demonstration data — fictional country, for training purposes only.",
+   "kicker": "",
+   "title": "Population and health statistics",
+   "subtitle": "Key demographic and health service indicators over recent years.",
+   "ovTitle": "Overview",
+   "ovLede": "Key demographic and health service indicators over recent years.",
+   "limBody": "Values of 100.5 and 101.9 are outside the plausible range for the preventive indicators. Values of 125, 146 and 153 are not found on the ‘Specialist doctors’ line, which contains [71.0, 96146125153.0]. Value 935 is not found on the ‘General practitioners’ line, which contains [623717.0, 1058935.0, 1016.0]. Rule‑based reading of the cell gives 1016.0, but the model reported 1058; rule‑based reading gives 1058935.0, but the model reported 717.",
+   "publisher": "National Institute of Statistics",
+   "period": ""
+  },
+  "fr": {
+   "sourceDoc": "Publication source",
+   "tabOverview": "Vue d'ensemble",
+   "tabData": "Données et sources",
+   "filterLabel": "Zones",
+   "reset": "Réinitialiser",
+   "searchPh": "Chercher un indicateur, une zone, une année…",
+   "btnCsv": "Télécharger le CSV",
+   "btnJson": "Télécharger le JSON",
+   "thIndicator": "Indicateur",
+   "thArea": "Zone",
+   "thPeriod": "Période",
+   "thValue": "Valeur",
+   "thUnit": "Unité",
+   "thPage": "Page",
+   "thStatus": "Contrôle",
+   "noRows": "Aucun chiffre ne correspond à cette recherche.",
+   "statusOk": "Vérifié",
+   "statusWarn": "À revoir",
+   "provLabel": "Lu dans le document source, page",
+   "calloutTitle": "À lire avant de réutiliser les chiffres",
+   "calloutBody": "Ces chiffres ont été extraits d'un PDF par un modèle de langage, puis contrôlés automatiquement contre le texte source. Les lignes marquées « À revoir » ont échoué à au moins un contrôle et n'ont pas été confirmées par un statisticien. Citez toujours la publication d'origine, pas ce tableau de bord.",
+   "dataTitle": "Données et sources",
+   "dataLede": "Tous les chiffres de ce tableau de bord, avec la page dont ils proviennent et la ligne de texte dont ils ont été lus. Cherchez, triez, ouvrez une ligne pour voir la source, exportez.",
+   "limTitle": "Limites",
+   "methTitle": "Comment ce tableau de bord a été construit",
+   "methBody": "Le texte a été extrait du PDF page par page. Un lecteur à base de règles et un modèle de langage ont transcrit les tableaux indépendamment, et chaque cellule a été contrôlée : provenance de page, citation vérifiée, unité et plage, réconciliation avec les totaux publiés, et accord entre les deux lectures. Le notebook, les prompts et le rapport de vérification sont dans le dépôt.",
+   "fSource": "Source",
+   "fLicence": "Licence",
+   "fBuilt": "Réalisé avec",
+   "fContact": "Contact",
+   "fBuiltBody": "Python, une chaîne d'extraction par LLM, Chart.js. Aucun traceur, aucun cookie, aucun serveur — un seul fichier HTML.",
+   "stamp": "Tableau de bord généré le {date}. Les chiffres relèvent de la responsabilité de l'institution source ; la présentation relève de la responsabilité de l'équipe qui a construit cette page.",
+   "syntheticWarn": "Données de démonstration — pays fictif, à usage pédagogique uniquement.",
+   "kicker": "",
+   "title": "Statistiques de la population et de la santé",
+   "subtitle": "Principaux indicateurs démographiques et de services de santé des dernières années.",
+   "ovTitle": "Aperçu",
+   "ovLede": "Principaux indicateurs démographiques et de services de santé des dernières années.",
+   "limBody": "Les valeurs 100,5 et 101,9 sont hors de la plage plausible pour les indicateurs préventifs. Les valeurs 125, 146 et 153 ne figurent pas sur la ligne « Médecins Spécialistes », qui contient [71.0, 96146125153.0]. La valeur 935 ne figure pas sur la ligne « Médecins Généralistes », qui contient [623717.0, 1058935.0, 1016.0]. La lecture par règles de la cellule donne 1016.0, mais le modèle a indiqué 1058 ; la lecture par règles donne 1058935.0, mais le modèle a indiqué 717.",
+   "publisher": "Institut National de la Statistique",
+   "period": ""
+  }
+ },
+ "overviewScatter": {
+  "x": "repartition_population_age",
+  "y": "indicateurs_preventifs",
+  "title": {
+   "en": "Indicators (%) against Population distribution (%) by age group",
+   "fr": "Indicateurs en % et Répartition (%) de la population selon les groupes d'âge"
+  },
+  "sub": {
+   "en": "One point per area — an association, not a causal claim",
+   "fr": "Un point par zone — une association, pas une relation causale"
+  },
+  "src": {
+   "en": "No significance test performed.",
+   "fr": "Aucun test de significativité réalisé."
+  }
+ }
+}
