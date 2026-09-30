@@ -1,3 +1,9 @@
+**Tableau de bord en ligne : <https://datainnov4africa-web.github.io/stg17-dashboard-burundi/>**
+
+Reconstruit en exécutant le notebook de ce dépôt sur la publication source. Dernière publication le 2026-09-30.
+
+---
+
 # Statistiques de la population et de la santé
 
 Tableau de bord bilingue (EN/FR) construit à partir de **La structure par sexe reste caractérisée par une légère prédominance du sexe féminin, refl**, pages 1, 7, 8.
