@@ -1,0 +1,67 @@
+indicator,area,period,value,unit,page,model,provenance,evidence,unit_range,arithmetic,cross_read,status,reason
+evolution_population,population totale,1979,4028420.0,,1,openai/gpt-oss-120b,True,True,False,True,no-row,review,unité «  » non autorisée pour evolution_population; 4028420 est hors de la plage plausible pour evolution_population
+evolution_population,Hommes,1979,1946145.0,,1,openai/gpt-oss-120b,True,True,False,True,no-row,review,unité «  » non autorisée pour evolution_population; 1946145 est hors de la plage plausible pour evolution_population
+evolution_population,Femmes,1979,2082275.0,,1,openai/gpt-oss-120b,True,True,False,True,no-row,review,unité «  » non autorisée pour evolution_population; 2082275 est hors de la plage plausible pour evolution_population
+evolution_population,taux d'accroissement annuel moyen,1979,,%,1,openai/gpt-oss-120b,False,True,True,True,no-row,dropped,None n'est pas imprimé sur la page 1
+evolution_population,population totale,1990,5292793.0,,1,openai/gpt-oss-120b,True,True,False,True,no-row,review,unité «  » non autorisée pour evolution_population; 5292793 est hors de la plage plausible pour evolution_population
+evolution_population,Hommes,1990,2574126.0,,1,openai/gpt-oss-120b,True,True,False,True,no-row,review,unité «  » non autorisée pour evolution_population; 2574126 est hors de la plage plausible pour evolution_population
+evolution_population,Femmes,1990,2718667.0,,1,openai/gpt-oss-120b,True,True,False,True,no-row,review,unité «  » non autorisée pour evolution_population; 2718667 est hors de la plage plausible pour evolution_population
+evolution_population,taux d'accroissement annuel moyen,1990,2.5,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+evolution_population,population totale,2008,8053574.0,,1,openai/gpt-oss-120b,True,True,False,True,no-row,review,unité «  » non autorisée pour evolution_population; 8053574 est hors de la plage plausible pour evolution_population
+evolution_population,Hommes,2008,3964906.0,,1,openai/gpt-oss-120b,True,True,False,True,no-row,review,unité «  » non autorisée pour evolution_population; 3964906 est hors de la plage plausible pour evolution_population
+evolution_population,Femmes,2008,4088668.0,,1,openai/gpt-oss-120b,True,True,False,True,no-row,review,unité «  » non autorisée pour evolution_population; 4088668 est hors de la plage plausible pour evolution_population
+evolution_population,taux d'accroissement annuel moyen,2008,2.4,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+evolution_population,population totale,2024,12332788.0,,1,openai/gpt-oss-120b,True,True,False,True,no-row,review,unité «  » non autorisée pour evolution_population; 12332788 est hors de la plage plausible pour evolution_population
+evolution_population,Hommes,2024,5901069.0,,1,openai/gpt-oss-120b,True,True,False,True,no-row,review,unité «  » non autorisée pour evolution_population; 5901069 est hors de la plage plausible pour evolution_population
+evolution_population,Femmes,2024,6431719.0,,1,openai/gpt-oss-120b,True,True,False,True,no-row,review,unité «  » non autorisée pour evolution_population; 6431719 est hors de la plage plausible pour evolution_population
+evolution_population,taux d'accroissement annuel moyen,2024,2.7,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+repartition_population_age,Moins de 5 ans,2008,17.7,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+repartition_population_age,Moins de 5 ans,2017,15.4,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+repartition_population_age,Moins de 5 ans,2023,13.1,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+repartition_population_age,Moins de 5 ans,2024,16.7,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+repartition_population_age,0-14 ans,2008,44.6,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+repartition_population_age,0-14 ans,2016,43.2,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+repartition_population_age,0-14 ans,2022,40.0,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+repartition_population_age,0-14 ans,2023,39.2,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+repartition_population_age,15-35 ans,2008,35.2,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+repartition_population_age,15-35 ans,2016,35.1,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+repartition_population_age,15-35 ans,2017,35.1,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+repartition_population_age,15-35 ans,2019,35.3,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+repartition_population_age,15-35 ans,2022,35.8,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+repartition_population_age,15-35 ans,2023,31.7,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+repartition_population_age,65 ans et +,2008,2.8,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+repartition_population_age,65 ans et +,2024,3.5,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+repartition_population_age,RD,2008,89.9,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+repartition_population_age,RD,2017,83.5,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+repartition_population_age,RD,2022,75.5,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+repartition_population_age,RD,2024,93.8,%,1,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+personnel_sante_par_annee,Médecins Spécialistes,2020,71.0,,7,openai/gpt-oss-120b,True,True,True,True,match,verified,
+personnel_sante_par_annee,Médecins Spécialistes,2021,96.0,,7,openai/gpt-oss-120b,True,True,True,True,mismatch,review,"la lecture par règles de cette cellule donne 96146125153.0, le modèle a dit 96"
+personnel_sante_par_annee,Médecins Spécialistes,2022,146.0,,7,openai/gpt-oss-120b,True,True,True,True,absent,review,"146 n'est nulle part sur la ligne « Médecins Spécialistes » ; cette ligne contient [71.0, 96146125153.0]"
+personnel_sante_par_annee,Médecins Spécialistes,2023,125.0,,7,openai/gpt-oss-120b,True,True,True,True,absent,review,"125 n'est nulle part sur la ligne « Médecins Spécialistes » ; cette ligne contient [71.0, 96146125153.0]"
+personnel_sante_par_annee,Médecins Spécialistes,2024,153.0,,7,openai/gpt-oss-120b,True,True,True,True,absent,review,"153 n'est nulle part sur la ligne « Médecins Spécialistes » ; cette ligne contient [71.0, 96146125153.0]"
+personnel_sante_par_annee,Médecins Généralistes,2020,623.0,,7,openai/gpt-oss-120b,True,True,True,True,mismatch,review,"la lecture par règles de cette cellule donne 623717.0, le modèle a dit 623"
+personnel_sante_par_annee,Médecins Généralistes,2021,717.0,,7,openai/gpt-oss-120b,True,True,True,True,mismatch,review,"la lecture par règles de cette cellule donne 1058935.0, le modèle a dit 717"
+personnel_sante_par_annee,Médecins Généralistes,2022,1058.0,,7,openai/gpt-oss-120b,True,True,True,True,mismatch,review,"la lecture par règles de cette cellule donne 1016.0, le modèle a dit 1058"
+personnel_sante_par_annee,Médecins Généralistes,2023,935.0,,7,openai/gpt-oss-120b,True,True,True,True,absent,review,"935 n'est nulle part sur la ligne « Médecins Généralistes » ; cette ligne contient [623717.0, 1058935.0, 1016.0]"
+personnel_sante_par_annee,Médecins Généralistes,2024,1016.0,,7,openai/gpt-oss-120b,True,True,True,True,row-only,verified,
+personnel_sante_par_annee,Infirmiers,2020,8160.0,,7,openai/gpt-oss-120b,True,True,True,True,match,verified,
+personnel_sante_par_annee,Infirmiers,2021,7714.0,,7,openai/gpt-oss-120b,True,True,True,True,match,verified,
+personnel_sante_par_annee,Infirmiers,2022,10158.0,,7,openai/gpt-oss-120b,True,True,True,True,match,verified,
+personnel_sante_par_annee,Infirmiers,2023,10873.0,,7,openai/gpt-oss-120b,True,True,True,True,match,verified,
+personnel_sante_par_annee,Infirmiers,2024,10091.0,,7,openai/gpt-oss-120b,True,True,True,True,match,verified,
+personnel_sante_par_annee,Sages-Femmes,2020,241.0,,7,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+personnel_sante_par_annee,Sages-Femmes,2021,143.0,,7,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+personnel_sante_par_annee,Sages-Femmes,2022,494.0,,7,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+personnel_sante_par_annee,Sages-Femmes,2023,498.0,,7,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+personnel_sante_par_annee,Sages-Femmes,2024,476.0,,7,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+indicateurs_preventifs,Taux de couverture en BCG,2020,82.3,%,8,openai/gpt-oss-120b,True,True,True,True,row-only,verified,
+indicateurs_preventifs,Taux de couverture en BCG,2021,72.4,%,8,openai/gpt-oss-120b,True,True,True,True,row-only,verified,
+indicateurs_preventifs,Taux de couverture en BCG,2022,70.8,%,8,openai/gpt-oss-120b,True,True,True,True,row-only,verified,
+indicateurs_preventifs,Taux de couverture en BCG,2023,70.4,%,8,openai/gpt-oss-120b,True,True,True,True,row-only,verified,
+indicateurs_preventifs,Taux de couverture en BCG,2024,71.5,%,8,openai/gpt-oss-120b,True,True,True,True,row-only,verified,
+indicateurs_preventifs,Taux de couverture en Penta2,2020,101.9,%,8,openai/gpt-oss-120b,True,True,False,True,no-row,review,101.9 est hors de la plage plausible pour indicateurs_preventifs
+indicateurs_preventifs,Taux de couverture en Penta2,2021,100.5,%,8,openai/gpt-oss-120b,True,True,False,True,no-row,review,100.5 est hors de la plage plausible pour indicateurs_preventifs
+indicateurs_preventifs,Taux de couverture en Penta2,2022,89.9,%,8,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+indicateurs_preventifs,Taux de couverture en Penta2,2023,87.8,%,8,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
+indicateurs_preventifs,Taux de couverture en Penta2,2024,87.9,%,8,openai/gpt-oss-120b,True,True,True,True,no-row,verified,
